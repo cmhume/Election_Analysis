@@ -22,6 +22,8 @@ Given the data set, election_results.csv, complete the following tasks:
 
 
 Data Source: election_results.csv
+
+
 Software: Python 3.6.7, Visual Studio Code version 1.54.3
 
 
