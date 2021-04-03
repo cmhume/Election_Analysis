@@ -30,7 +30,8 @@ Given the data set, election_results.csv, complete the following tasks:
 Data Source: https://github.com/cmhume/Election_Analysis/blob/7056220d608aebba6956f073e30266df17713625/Resources/election_results.csv
 
 
-Starter code: PyPoll_Challenge_starter_code.py https://github.com/cmhume/Election_Analysis/blob/7056220d608aebba6956f073e30266df17713625/PyPoll_Challenge.py
+code: PyPoll_Challenge.py https://github.com/cmhume/Election_Analysis/blob/7056220d608aebba6956f073e30266df17713625/PyPoll_Challenge.py
+
 
 Software: Python 3.6.7, Visual Studio Code version 1.54.3
 
@@ -43,7 +44,7 @@ Software: Python 3.6.7, Visual Studio Code version 1.54.3
 The results from the analysis of this election are:
 
 
-from the election_results.txt: https://github.com/cmhume/Election_Analysis/blob/7056220d608aebba6956f073e30266df17713625/analysis/election_results.txt
+election_results.txt: https://github.com/cmhume/Election_Analysis/blob/7056220d608aebba6956f073e30266df17713625/analysis/election_results.txt
 
 
 * There was a total of 369,711 votes cast in the election
@@ -91,13 +92,13 @@ The following code was used to create the variables needed to create a candidate
 ![pypoll_code_pt1](https://user-images.githubusercontent.com/78699521/113486839-8774fc80-9469-11eb-84f8-7ceef35d444f.png)
 
 
-The code below was used to find the number of counties, how many votes were in each county, and the county with the largest number of votes, then print the information to the election_analysis.txt file:
+The code below was used to find the number of counties, how many votes were in each county, and the county with the largest number of votes, then print the information to the file_to_save:
 
 
 ![pypoll_code_pt2](https://user-images.githubusercontent.com/78699521/113486879-bf7c3f80-9469-11eb-8c77-87e7afc74e68.png)
 
 
-The last portion of code determined the county with the largest voter turnout, saved the results to the text file election_results.txt and printed the results to the terminal:
+The last portion of code determined the county with the largest voter turnout, saved the results to the text file, file_to_save, and printed the results to the terminal:
 
 
 ![pypoll_code_pt3](https://user-images.githubusercontent.com/78699521/113486912-e9356680-9469-11eb-8b32-8ff85ab661d8.png)
