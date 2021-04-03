@@ -30,15 +30,16 @@ Given the data set, election_results.csv, complete the following tasks:
 Data Source: https://github.com/cmhume/Election_Analysis/blob/7056220d608aebba6956f073e30266df17713625/Resources/election_results.csv
 
 
-code: PyPoll_Challenge.py https://github.com/cmhume/Election_Analysis/blob/7056220d608aebba6956f073e30266df17713625/PyPoll_Challenge.py
-
-
 Software: Python 3.6.7, Visual Studio Code version 1.54.3
 
 
+Code: PyPoll_Challenge.py https://github.com/cmhume/Election_Analysis/blob/7056220d608aebba6956f073e30266df17713625/PyPoll_Challenge.py
+
+
+Election results: [election_results.txt](https://github.com/cmhume/Election_Analysis/files/6253175/election_results.txt)
+
+
 ## Election-Audit Results: 
-
-
 
 
 The results from the analysis of this election are:
