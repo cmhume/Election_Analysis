@@ -27,23 +27,26 @@ Given the data set, election_results.csv, complete the following tasks:
 ## Resources
 
 
-Data Source: election_results.csv
+Data Source: https://github.com/cmhume/Election_Analysis/blob/7056220d608aebba6956f073e30266df17713625/Resources/election_results.csv
 
 
-Starter code: PyPoll_Challenge_starter_code.py
+Starter code: PyPoll_Challenge_starter_code.py https://github.com/cmhume/Election_Analysis/blob/7056220d608aebba6956f073e30266df17713625/PyPoll_Challenge.py
 
 Software: Python 3.6.7, Visual Studio Code version 1.54.3
 
 
 ## Election-Audit Results: 
 
+
+
+
 The results from the analysis of this election are:
 
 
+from the election_results.txt: https://github.com/cmhume/Election_Analysis/blob/7056220d608aebba6956f073e30266df17713625/analysis/election_results.txt
+
+
 * There was a total of 369,711 votes cast in the election
-
-
-
 
 
 * The number of votes and percentage of total votes for each County in the voting precinct were:
@@ -74,7 +77,33 @@ The results from the analysis of this election are:
   * Diana Degette: 73.8% of the total vote count (272,892 votes)
 
 
+
+
+The results as seen printed to the terminal in Visual Studio Code:
+
+
+![results_terminal_and_txt](https://user-images.githubusercontent.com/78699521/113486783-3cf38000-9469-11eb-8be7-6b1bbb822725.png)
+
+
+The following code was used to create the variables needed to create a candidate and county list and track candidate and county votes:
+
+
+![pypoll_code_pt1](https://user-images.githubusercontent.com/78699521/113486839-8774fc80-9469-11eb-84f8-7ceef35d444f.png)
+
+
+The code below was used to find the number of counties, how many votes were in each county, and the county with the largest number of votes, then print the information to the election_analysis.txt file:
+
+
+![pypoll_code_pt2](https://user-images.githubusercontent.com/78699521/113486879-bf7c3f80-9469-11eb-8c77-87e7afc74e68.png)
+
+
+The last portion of code determined the county with the largest voter turnout, saved the results to the text file election_results.txt and printed the results to the terminal:
+
+
+![pypoll_code_pt3](https://user-images.githubusercontent.com/78699521/113486912-e9356680-9469-11eb-8b32-8ff85ab661d8.png)
+
+
 ## Election Audit Summary
 
 
-The code used in this election-audit can be easily modified for future elections.  The path to the data file with any election's results can be placed in the file_to_load variable.  The code will read the requested file and create a list of candidates and counties present in the data, track votes for each candidate, the number of votes in each county, determine the winning candidate, the county with the largest voter turnout, and print the analysis to the election_analysis.txt file.  If needed, a different text file could also be used to write the results to by changeing the file_to_save variable with the path to the desired .txt file.  The index numbers for the columns with the data for candidate_name and county_name can be changed to correspond with their location in the new file_to_load by changing the number inside the square brackets after row, when the candidate_name and county_name are first assigned. With these actions, changing file_to_load, file_to_save and updating column index numbers, the results for any election can be easily tabulated and printed in the command line and a separate text file.
+The code used in this election-audit, https://github.com/cmhume/Election_Analysis/blob/7056220d608aebba6956f073e30266df17713625/PyPoll_Challenge.py, can be easily modified for future elections.  The path to the data file with any election's results can be placed in the file_to_load variable.  The code will read the requested file and create a list of candidates and counties present in the data, track votes for each candidate, the number of votes in each county, determine the winning candidate, the county with the largest voter turnout, and print the analysis to the election_results.txt file.  If needed, a different text file could also be used to write the results to by changeing the file_to_save variable with the path to the desired .txt file.  The index numbers for the columns with the data for candidate_name and county_name can also be changed to correspond with their location in the new file_to_load by changing the number inside the square brackets after row, when the candidate_name and county_name are first assigned. With these actions, changing file_to_load, file_to_save and updating column index numbers, the results for any election can be easily tabulated and printed in the command line and a corresponding election results text file.
