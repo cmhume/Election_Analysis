@@ -35,12 +35,15 @@ Starter code: PyPoll_Challenge_starter_code.py
 Software: Python 3.6.7, Visual Studio Code version 1.54.3
 
 
-## Election-Audit Results: Using a bulleted list, address the following election outcomes. Use images or examples of your code as support where necessary.
+## Election-Audit Results: 
 
-The analysis of this election shows:
+The results from the analysis of this election are:
 
 
-* There was a total of 369,711 votes cast 
+* There was a total of 369,711 votes cast in the election
+
+
+
 
 
 * The number of votes and percentage of total votes for each County in the voting precinct were:
