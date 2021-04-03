@@ -17,6 +17,12 @@ Given the data set, election_results.csv, complete the following tasks:
 
 5) Determine the winner of the election based on popular vote
 
+6) Calculate voter turnout for each county
+
+7) Calculate the percentage of votes from each county out of the total votes cast in the election
+
+8) Determine the county with the highest voter turnout
+
 
 ## Resources
 
@@ -24,62 +30,48 @@ Given the data set, election_results.csv, complete the following tasks:
 Data Source: election_results.csv
 
 
+Starter code: PyPoll_Challenge_starter_code.py
+
 Software: Python 3.6.7, Visual Studio Code version 1.54.3
-
-
-## Summary
-
-
-The analysis of the election shows:
-
-
-* There were 369,711 votes cast in the election
-
-
-* The candidates were:
-
-
-  * Charles Casper Stockham
-  * Diana DeGette
-  * Raymon Anthony Doane
-
-
-* The candidates results were:
-
-
-  * Charles Casper Stockham: 23.0% (85,213 votes)
-  * Diana DeGette: 73.8% (272,892 votes)
-  * Raymon Anthony Doane: 3.1% (11,606 votes)
-  
-  
-* The winner of the election was:
-
-
-  * Diane DeGette
-
-## Election Audit Overview
-Overview of Election Audit: Explain the purpose of this election audit analysis.
 
 
 ## Election-Audit Results: Using a bulleted list, address the following election outcomes. Use images or examples of your code as support where necessary.
 
-*How many votes were cast in this congressional election?
+The analysis of this election shows:
 
 
-*Provide a breakdown of the number of votes and the percentage of total votes for each county in the precinct.
+* There was a total of 369,711 votes cast 
 
 
-*Which county had the largest number of votes?
+* The number of votes and percentage of total votes for each County in the voting precinct were:
+  
+  
+  * Arapahoe County: 6.7% of total votes (24,801 votes)
+  * Denver County: 82.8% of total votes (306,055 votes)
+  * Jefferson County: 10.5% of total votes (38,855 votes)
 
 
-*Provide a breakdown of the number of votes and the percentage of the total votes each candidate received.
+* The county with the largest voter turnout was:
 
 
-*Which candidate won the election, what was their vote count, and what was their percentage of the total votes?
+  * Denver County 
+
+
+* The number of votes and percentage of total votes received by each candidate was:
+
+
+  * Diana Degette: 73.8% of votes (272,892 votes)
+  * Raymon Anthony Doane: 3.1% of votes (11,066 votes)
+  * Charles Casper Stockham: 23.0% of votes (85,213 votes)
+
+
+* The winner of this election by popular vote was:
+
+
+  * Diana Degette: 73.8% of the total vote count (272,892 votes)
 
 
 ## Election Audit Summary
 
 
-Election-Audit Summary: In a summary statement, provide a business proposal to the election commission on how this script can be used—with some modifications—for any election. Give at least two examples of how this script can be modified to be used for other elections.
-
+The code used in this election-audit can be easily modified for future elections.  The path to the data file with any election's results can be placed in the file_to_load variable.  The code will read the requested file and create a list of candidates and counties present in the data, track votes for each candidate, the number of votes in each county, determine the winning candidate, the county with the largest voter turnout, and print the analysis to the election_analysis.txt file.  If needed, a different text file could also be used to write the results to by changeing the file_to_save variable with the path to the desired .txt file.  The index numbers for the columns with the data for candidate_name and county_name can be changed to correspond with their location in the new file_to_load by changing the number inside the square brackets after row, when the candidate_name and county_name are first assigned. With these actions, changing file_to_load, file_to_save and updating column index numbers, the results for any election can be easily tabulated and printed in the command line and a separate text file.
